@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>এনজিও</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:center;>
+	
+<strong>উন্নত জীবনের সন্ধান</strong><br>
+মো: ইব্রাহিম খলিল<br>
+নির্বাহী পরিচালক<br>
+<a href="Tel:+8801712493231" class="ui-link-inherit">মোবাইল: ০১৭১২৪৯৩২৩১</a><br><br>
+
+<strong>ডেমিয়েন ফাউন্ডেশন</strong><br>
+মো:মোবারক হোসেন<br>
+সিনিয়র টি এল সি এ<br>
+<a href="Tel:+8801914093719" class="ui-link-inherit">মোবাইল: ০১৯১৪০৯৩৭১৯</a><br><br>
+
+<strong>দি হাঙ্গার প্রজেক্ট</strong><br>
+সৈয়দ মো: নাছির উদ্দিন<br>
+পোগ্রাম অফিসার<br>
+<a href="Tel:+8801716567969" class="ui-link-inherit">মোবাইল: ০১৭১৬৫৬৭৯৬৯</a><br><br>
+
+<strong>বুরো বাংলাদেশ গোপালপুর</strong><br>
+মো: হোসেন আলী<br>
+<a href="Tel:+8801732447175" class="ui-link-inherit">মোবাইল: ০১৭৩২৪৪৭১৭৫</a><br><br>
+
+<strong>এস এস এস </strong><br>
+আ: রহমান<br>
+<a href="Tel:+8801737483471" class="ui-link-inherit">মোবাইল: ০১৭৩৭৪৮৩৪৭১</a><br><br>
+
+<strong>সূর্যের হাসি ক্লিনিক গোপালপুর</strong><br>
+আব্দুল্লাহ আলমামুন<br>
+<a href="Tel:+8801758081819" class="ui-link-inherit">মোবাইল: ০১৭৫৮০৮১৮১৯</a><br><br>
+
+<strong>ব্রাক অফিস</strong><br>
+জবা রানী শর্মা<br>
+<a href="Tel:+8801786030731" class="ui-link-inherit">মোবাইল: ০১৭৮৬০৩০৭৩১</a><br><br>
+
+<strong>শক্তি ফাউন্ডেশন</strong><br>
+শারমিন শবনম<br>
+<a href="Tel:+8801847099324" class="ui-link-inherit">মোবাইল: ০১৮৪৭০৯৯৩২৪</a>
+
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="../jquery/jquery-1.11.2.min.js"></script>
+		<script src="../jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="../img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-bar ui-bar-b">
+					<h1>যোগাযোগ ব্যবস্থা</h1>
+				</div>
+			<div class="ui-corner-all custom-corners">
+					
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:justify;>
+					ঢাকা হতে গোপালপুর যাওয়ার জন্য সড়ক ও রেলপথ ব্যবহার করা যায় । সড়ক পথে ঢাকার মহাখালী হতে দ্রুতগামী পরিবহণে গোপালপুর আসা যায় । তাছাড়া কল্যাণপুর বাস স্ট্যান্ড হতে সোনিয়া ও বিনিময় পরিবহনের এসি বাসের মাধ্যমে টাংগাইল ও ঘাটাইল হয়ে গোপালপুর আসা যায় । <br><br>
+					পাশা পাশি কমলাপুর ও এয়ারপোর্ট রেল স্টেশন হতে ট্রেনে টাংগাইল/ইব্রাহীমাবাদ (বঙ্গবন্ধু সেতু পূর্ব)স্টেশনে নেমে সিএনজি যোগে গোপালপুর যাওয়া যায় । এছাড়া ময়মনসিংহ হতে জামালপুর হয়ে একটি ট্রেন গোপালপুরের হেমনগর রেল স্টেশনে আসে । <br><br>
+					গোপালপুর উপজেলার নন্দনপুর বাস স্টেশন থেকে সকাল ৫.৩০ থেকে শুরু করে রাত ১০.০০ পর্যন্ত পর্যায়ক্রমে বাংলাদেশের রাজধানী ঢাকা পর্যন্ত ছেড়ে যায় দ্রুতগামী পরিবহন ।
+					</p>
+					
+					
+					<p style=text-align:center;>
+					<img style="max-width: 100%;" src="Picture1.jpg"/><br>
+					<strong>মোঃ জিল্লুর রহমান শিহাব</strong><br>
+					পদবীঃ সভাপতি <br>
+					টাঙ্গাইল জেলা বাস-মিনিবাস মালিক সমিতি গোপালপুর<br>        
+					<a href="Tel:+8801715969975" class="ui-link-inherit">মোবাইল: ০১৭১৫৯৬৯৯৭৫ </a><br>
+					ইমেইলঃ zillurrahman9750@gmail.com </p>
+					
+					<p style=text-align:center;>
+					<img style="max-width: 100%;" src="Picture2.jpg"/><br>
+					<strong>মোঃ রফিকুল কিবরিয়া দুলাল </strong><br>
+					পদবী: সাধারন সম্পাদক  <br>
+					গোপালপুর ট্রাক মালিক সমিতি<br>        
+					<a href="Tel:+8801715969975" class="ui-link-inherit">মোবাইল: ০১৭১১১৭৩০৫০ </a></p>			
+					
+					
+					<p style=text-align:center;>
+					<img style="max-width: 100%;" src="Picture3.jpg"/><br>
+					<strong>মোঃ শাহীন সিদ্দিকী </strong><br>
+					পদবী: সাধারন সম্পাদক  <br>
+					ট্রাক শ্রমিক ইউনিয়ন<br>        
+					<a href="Tel:+8801712134103" class="ui-link-inherit">মোবাইল: ০১৭১২১৩৪১০৩</a></p>	
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					</div>
+				</div>
+				
+				
+					
+				  
+				
+			
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

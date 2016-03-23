@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>হেমনগর জমিদার বাড়ী</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+				
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:center;> <img style="max-width: 100%;" src="img/hemnogor.jpg"/></p>
+						
+						<p style=text-align:justify;>গোপালপুর উপজেলা সদর থেকে  ১০ কি মিঃ দূরে হেমনগর ইউনিয়নে এটি অবস্থিত । যেখানে অষ্টাদশ শতাব্দীর কারুকাজ করা হেমবাবুর জমিদার বাড়ীর দ্বিতল ভবনটি আজও সেই পুরোনো ঐতিহ্য নিয়ে মাথা উচু করে সগর্বে দম্ভ প্রকাশ করছে। বাড়ীর সামনে রয়েছে বিরাট মাঠ। <br><br>
+						মাঠ পেরিয়ে গেলেই দেখা যায় দ্বিতল বাড়ীর ছাদে দু’টি পরীর ভাস্কর্য রয়েছে। তাই লোকে একে পরীর দালানও বলে। একশ’ কক্ষ বিশিষ্ট এই বাড়ীটি প্রায় ত্রিশ একর জমির উপর তৈরি। সামনে দরবার ঘর, দু’পাশে সারি-সারি ঘর গুলো নিয়ে গড়ে উঠেছে চতুর্ভুজাকার জমিদার প্রাসাদ। <br><br>
+						তিন ফুট প্রশস্ত দেয়ালে ঘেরা জমিদার বাড়ীর মাঠের সামনে এবং বাড়ীর পেছনে রয়েছে বেশ বড়ো বড়ো দু’টি পুকুর। শিক্ষা-সংস্কৃতি বিকাশে জমিদার পরিবারের ছিল ব্যাপক ভূমিকা। হেমনগরের জমিদার হেম চন্দ্র চৌধুরির পিতা কালিবাবু চৌধুরি ছিলেন ব্যবসায়ী। <br><br>
+						তিনি সূর্যাস্ত আইনের আওতায়  শিমুলিয়া পরগণার জমিদারি কিনে নেন। কালিবাবু চৌধুরির ছিল চার ছেলে ও চার মেয়ে। বড় ছেলে হেরেশ্বর চন্দ্র চৌধুরি জমিদারি দেখা-শোনার দায়িত্ব পান। তিনি তদানিন্তন ময়মনসিংহ জেলার মধুপুর  উপজেলার অন্তর্গত আমবাড়িয়া ষ্টেটে জমিদার বাড়ী বানান এবং জমিদারি পরিচালনা করেন। <br><br>
+						কিন্তু আমাড়িয়া থেকে যমুনার পূর্বপাড় এবং সেখান থেকে মধুপুর গড় পযর্ন্ত বিশাল এলাকার জমিদারি পরিচালনা অসম্ভব হয়ে পড়ে। তাই তিনি গোপালপুর উপজেলার সুবর্ণখালী নাম গ্রামে দ্বিতীয় বাড়ী নির্মাণ করে জমিদারী প্রাসাদ বানান।<br><br>
+						নদী ভাঙ্গনে সুবর্ণখালি বিলীন হতে থাকলে তিনি শিমলা পাড়া গ্রামে ১৮৮০ সালের দিকে রাজপ্রাসাদ তৈরি করেন এবং নিজ নামে এলাকার নামকরণ করেন হেমনগর। স্থানীয় মহল জমিদার বাড়ীটিকে কলেজের জন্য উপযুক্ত স্থান হিসেবে নির্ধারণ করলে ১৯৭৯ সালে ‘হেমনগর খন্দকার আসাদুজ্জামান ডিগ্রী কলেজ’ নামে একটি কলেজ প্রতিষ্ঠা হয়।<br><br>
+						ফলে বহু কালের পুরনো ইতিহাস নির্বিচারে ধ্বংসের হাত থেকে কিছুটা রক্ষা পেয়েছে। তবুও জমিদার বাড়ীর সৌন্দর্য আজ অতীত।  </p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

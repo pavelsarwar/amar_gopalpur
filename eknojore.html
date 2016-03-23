@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>একনজরে গোপালপুর</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলার নামকরণ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>টাংগাইল জেলার উত্তরে অবস্থিত একটি উপজেলার নাম গোপালপুর। এটি ১৯২০ সালে গোপালপুর থানা হিসাবে গঠিত হয় এবং থানাকে উপজেলায় রুপান্তরিত করা হয় ১৯৮৩ সালে। গোপালপুর নামকরণ নিয়ে দু-ধরনের মতামতের উল্লেখ আছে। <br><br>
+						প্রথমত, মুঘল শাসনামলে গোপাল শাহ নামে এক আফগান দরবেশ এখানে এসে আস্তানা গড়ে তোলে। এ গোপাল শাহের নামানুসারে নাম হয় গোপালপুর। <br><br>
+						অপর দিকে ১৯০৪ সালে গোপালপুর হিন্দু অধ্যুষিত জনপদ ছিল এবং এ স্থানটিতে গোপাল চক্রবর্তী নামে এক লোক নাটোরের রাজার কাছ থেকে পত্তন আনেন এবং বসতি স্থাপন করেন । তার নামানুসারে এ স্থানের নাম হয়েছে গোপালপুর।</p>
+						
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সীমানা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>গোপালপুর উপজেলার  আয়তন ১৯৩.৩৭ বর্গ কি: মি:। অবস্থান ২৪°২৯'' থেকে ২৪°৪১'' উত্তর অক্ষাংশ এবং ৮৯°৪৫'' থেকে ৯০°০০'' দ্রাঘিমাংশ সীমানা। <br><br>
+						গোপালপুর উপজেলার উত্তরে সরিষাবাড়ী উপজেলা, ধনবাড়ী উপজেলা, পুর্বে মধুপুর উপজেলা, ঘাটাইল উপজেলা, দক্ষিনে ভুয়াপুর উপজেলা এবং পশ্চিমে যমুনা নদীর তীর দ্বারা বেষ্টিত।</p>
+				 	 </div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>জনসংখ্যা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>পুরুষ ২৭৪২৭৩ জন, মহিলা ১৩৮৮৮৪ জন । এর মধ্যে মুসলিম ২৬৩২৮২ জন, হিন্দু ১০৯৩৮ জন, বৌদ্ধ ২৭ জন এবং অন্যান্য ২৬ জন।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মোটভোটার সংখ্যা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p> গোপালপুর উপজেলায় মোট ভোটারের সংখ্যা-১ লক্ষ ৯৫ হাজার ১৪৩ জন । এর মধ্যে ৯৭ হাজার তিনশত ৪ জন পুরুষ এবং ৯৭ হাজার ৮ শত ৩১ জন নারী ভোটার রয়েছে ।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>গ্রাম</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p> গোপালপুর উপজেলার মোট গ্রামের সংখ্যা হলো-১৫৫ টি ।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মৌজা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>গোপালপুর উপজেলার মোট মৌজার সংখ্যা-১২৯ টি ।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পৌরসভা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>গোপালপুর উপজেলায় একটি দ্বিতীয় শ্রেনীর পৌরসভা রয়েছে, যার নাম গোপালপুর পৌরসভা।</p>
+				 	 </div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ইউনিয়ন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p>গোপালপুর উপজেলায় মোট -৭ টি  </p>
+				 	 </div>
+				</div>
+				
+				
+				<div class="ui-corner-all custom-corners" align="center">
+					<div class="ui-bar ui-bar-a">
+						<h3>মানচিত্রে উপজেলা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<img style="max-width: 100%;" src="img/map.jpg"/>
+				 	 </div>
+				</div>
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="../jquery/jquery-1.11.2.min.js"></script>
+		<script src="../jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="../img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-bar ui-bar-b">
+					<h1>উপজেলা প্রকৌশল ও যোগাযোগ</h1>
+				</div>
+		
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>উপজেলা প্রকৌশলী কার্যালয়(এলজিইডি)</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture21.jpg"/><br>
+					<strong>মো: জালাল উদ্দিন</strong> <br>পদবী: উপজেলা প্রকৌশলী(এলজিইডি)<br>
+					<a href="Tel:+8801725155776" class="ui-link-inherit">মোবাইল: ০১৭২৫১৫৫৭৭৬ </a>
+					<br>ইমেইল: ue.gopalpur@gmail.com</p>
+					
+					</div>
+				</div>
+			
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>উপজেলা প্রকল্প বাস্তবায়ন কর্মকর্তার কার্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture22.jpg"/><br>
+					<strong>এনামুল হক</strong> <br>পদবী: উপজেলা প্রকল্প বাস্তবায়ন কর্মকর্তা<br>
+					<a href="Tel:+8801713807044" class="ui-link-inherit">মোবাইল: ০১৭১৩৮০৭০৪৪ </a>
+					<br>ইমেইল: piogopalpur@drr.gov.bd</p>
+					
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>উপজেলা জনস্বাস্থ্য প্রকৌশল অধিদপ্তর</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture23.jpg"/><br>
+					<strong>এম এ রাজ্জাক</strong> <br>পদবী: উপ-সহকারি প্রকৌশলী <br>
+					<a href="Tel:+8801915772407" class="ui-link-inherit">মোবাইল: ০১৯১৫৭৭২৪০৭</a>
+					<br>ইমেইল: marazzaq051056@yahoo.com</p>
+					
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>উপজেলা বিটিসিএল অফিস</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture24.jpg"/><br>
+					<strong>মো: হায়দার আলী </strong> <br>পদবী: উপ-সহকারী প্রকৌশলী(বিটিসিএল)<br>
+					<a href="Tel:+8801767356260" class="ui-link-inherit">মোবাইল: ০১৭৬৭৩৫৬২৬০</a>
+					</p>
+					
+					</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>শিক্ষা প্রকৌশল</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture25.jpg"/><br>
+					<strong>কে, এম, আশরাফুল ইসলাম</strong> <br>পদবী: উপ-সহকারী প্রকৌশলী(শিক্ষা)</p>
+					
+					</div>
+				</div>
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

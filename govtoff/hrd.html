@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="../jquery/jquery-1.11.2.min.js"></script>
+		<script src="../jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="../img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-bar ui-bar-b">
+					<h1>মানব সম্পদ উন্নয়ন বিষয়ক</h1>
+				</div>
+		
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা মহিলা বিষয়ক কর্মকর্তার কার্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture10.jpg"/><br>
+					<strong>আমিনা বেগম</strong> <br>পদবী: উপজেলা মহিলা বিষয়ক অফিসার<br>
+					<a href="Tel:+8801715404775" class="ui-link-inherit">মোবাইল: ০১৭১৫৪০৪৭৭৫ </a>
+					<br>ইমেইল: uwaogopal@gmail.com</p>
+					
+					</div>
+				</div>
+			
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা যুব উন্নয়ন অফিস</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture11.jpg"/><br>
+					<strong>মোহাম্মদ ইসমাইল হোসেন</strong> <br>পদবী: উপজেলা যুব উন্নয়ন কর্মকর্তা<br>
+					<a href="Tel:+8801718592211" class="ui-link-inherit">মোবাইল: ০১৭১৮৫৯২২১১  </a><br>ইমেইল: uydogopalpur@gmail.com</p>
+					
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা সমবায় কার্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture12.jpg"/><br>
+					<strong>মো: হাবিবুর রহমান</strong> <br>পদবী: উপজেলা সমবায় অফিসার<br>
+					<a href="Tel:+8801716412318" class="ui-link-inherit">মোবাইল: ০১৭১৬৪১২৩১৮ </a>
+					<br>ইমেইল: ucogopalpur@gmail.com </p>
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা পল্লী উন্নয়ন বোর্ড (বিআরডিবি)</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture13.jpg"/><br>
+					<strong>মোহাম্মদ লুৎফর রহমান</strong> <br>পদবী: উপজেলা পল্লী উন্নয়ন অফিসার<br>
+					<a href="Tel:+8801720051888" class="ui-link-inherit">মোবাইল: ০১৭২০০৫১৮৮৮</a>
+					<br>ইমেইল: lutforbrdb1@gmail.com</p>
+					</div>
+				</div>
+				
+					<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>একটি বাড়ী একটি খামার</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture14.jpg"/><br>
+					<strong>মো: মোজাম্মেল হক</strong> <br>পদবী: উপজেলা সমন্বয়কারী (অ:দা:)<br>
+					<a href="Tel:+8801913361998" class="ui-link-inherit">মোবাইল: ০১৯১৩৩৬১৯৯৮ </a>
+					<br>ইমেইল: ucogopalpur@ebek-rdcd.gov.bd</p>
+					</div>
+					</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>সমাজ সেবা অফিসারের কার্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture15.jpg"/><br>
+					<strong>মাহবুব উল আলম খাসনবীশ</strong> <br>পদবী: উপজেলা সমাজ সেবা অফিসার<br>
+					<a href="Tel:+8801712444761" class="ui-link-inherit">মোবাইল: ০১৭১২৪৪৪৭৬১ </a>
+					<br>ইমেইল: alam91.06@gmail.com</p>
+					</div>
+					</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+					<h3>উপজেলা দারিদ্র বিমোচন ফাউন্ডেশন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture16.jpg"/><br>
+					<strong>মো: সোলায়মান মিয়া</strong> <br>পদবী: উপজেলা দারিদ্র বিমোচন অফিসার<br>
+					<a href="Tel:+8801718531629" class="ui-link-inherit">মোবাইল: ০১৭১৮৫৩১৬২৯ </a>
+					</p>
+					</div>
+					</div>
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

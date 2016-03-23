@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="../jquery/jquery-1.11.2.min.js"></script>
+		<script src="../jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="../img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-bar ui-bar-b">
+					<h1>ট্রেন সার্ভিস</h1>
+				</div>
+		
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে ঢাকা ও ঢাকা থেকে টাঙ্গাইল যাওয়ার ট্রেনের সময় সূচী </h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+					
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">ঢাকা হতে ছাড়ে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>সুন্দরবন-৭২৫</td><td>	৩.৩০ মি. রাত</td><td>	৬.২০ মি. ভোর</td><td>	শনিবার</td></tr>
+<tr><td>একতা-৭০৬	</td><td>৫.০৩ মি. ভোর	</td><td>১০.০০ সকাল</td><td>	মঙ্গলবার</td></tr>
+<tr><td>নীল সাগর-৭৬৬</td><td>	৫.৪৯ মি. ভোর</td><td>	৮.২৫ মি. সকাল (ক্যান্ট)</td><td>	সোমবার</td></tr>
+<tr><td>৫৫১-আপ(লোকাল)	</td><td>৭.৫৯ মি. সকাল</td><td>	১১.২৫ মি. সকাল	</td><td>নাই</td></tr>
+<tr><td>সিল্ক সিটি-৭৫৪</td><td>	১১.১০ মি. সকাল	</td><td>২.৪০ মি. দুপুর</td><td>	রবিবার</td></tr>
+<tr><td>সিরাজগঞ্জ এক্সপ্রেস	</td><td>১২.৫১ মি. দুপুর	</td><td>৫.০০ মি. বিকাল</td><td>	শনিবার</td></tr>
+<tr><td>দ্রুতযান-৭৫৮</td><td>	৩.২৭ মি. বিকাল</td><td>	১১.১০ মি. সন্ধ্যা	</td><td>বুধবার</td></tr>
+<tr><td>চিত্রা-৭৬৩	</td><td>৪.০৬ মি. বিকাল	</td><td>৭.০০ মি. সন্ধ্যা	</td><td>সোমবার</td></tr>
+<tr><td>লালমনি-৭৫২</td><td>	৬.৪৮ মি. সন্ধ্যা</td><td>	১০.১০ মি. রাত	</td><td>শুক্রবার</td></tr>
+<tr><td>পদ্মা-৭৬০	</td><td>৭.৩৫ মি. সন্ধ্যা	</td><td>১১.১০ মি. রাত	</td><td>মঙ্গলবার</td></tr>
+</table>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে রাজশাহী যাওয়ার ট্রেনের সময় সূচী</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">রাজশাহী পৌছে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>ধুমকেতু-৭৬৯‌</td><td>	৮.০০ মি. সকাল</td><td>	১২.০৫ মি. দুপুর	</td><td>মঙ্গলবার</td></tr>
+<tr><td>সিল্কসিটি-৭৫৩	</td><td>৫.০৬ মি. বিকাল</td><td>৮.৫০ মি. রাত	</td><td>রবিবার</td></tr>
+<tr><td>পদ্মা-৭৫৯	</td><td>১.০৬ মি. রাত</td><td>	৪.৪৫ মি. ভোর	</td><td>মঙ্গলবার</td></tr>
+</table>	
+				 	</div>
+				</div>
+				
+				
+	<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে খুলনা যাওয়ার ট্রেনের সময় সূচী</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">খুলনা পৌছে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>চিত্রা-৭৬৪</td><td>		৯.১০ মি. রাত</td><td>		৫.০৫ মি. ভোর	</td><td>	সোমবার</td></tr>
+<tr><td>সুন্দরবন-৭২৬</td><td>		৮.৩৫ মি. সকাল	</td><td>	৪.৩০ মি. বিকাল</td><td>		শনিবার</td></tr>
+
+</table>	
+				 	</div>
+				</div>			
+				
+<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে দিনাজপুর যাওয়ার ট্রেনের সময় সূচী</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">দিনাজপুর পৌছে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>দ্রুতযান-৮৫৭	</td><td>৯.৪৭ মি. রাত	</td><td>৫.১০ মি. ভোর</td><td>	বুধবার</td></tr>
+<tr><td>একতা-৭০৫	</td><td>১২.০৪ মি. সকাল	</td><td>৭.২০ মি. রাত	</td><td>মঙ্গলবার</td></tr>
+</table>	
+				 	</div>
+				</div>			
+
+<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে নীলফামারী যাওয়ার ট্রেনের সময় সূচী</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">নীলফামারী পৌছে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>নীলমাগর-৭৬৫</td><td>১০.১৮ মি. সকাল</td><td>৫.৩০ মি. বিকাল</td><td>সোমবার</td></tr>
+</table>	
+				 	</div>
+				</div>				
+				
+	<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাঙ্গাইল হতে লালমনিরহাট যাওয়ার ট্রেনের সময় সূচী</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+							<table class="table table-bordered" style="font-size:11px">
+				<tr>
+				<td class="warning">ট্রেনের নাম</td>
+				<td class="info">টাঙ্গাইল হতে ছাড়ে</td>
+				<td class="warning">লালমনিরহাট পৌছে</td>
+				<td class="info">বন্ধের দিন</td>
+				</tr>
+				
+<tr><td>লালমনি-৭৫১</td><td>০০.১৯ মি. রাত</td><td>৮.২০ মি. সকাল</td><td>শুক্রবার</td></tr>
+</table>	
+				 	</div>
+				</div>				
+				
+				
+
+
+			
+			<link href="../jquery/app.css" rel="stylesheet" type="text/css">
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

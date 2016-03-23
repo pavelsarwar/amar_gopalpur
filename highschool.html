@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<h1>মাধ্যমিক বিদ্যালয়</h1>
+				</div>
+				<div class="ui-corner-all custom-corners">
+				
+					
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:center;>
+মাকুল্যা উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ	মোঃ রফিকুল ইসলাম<br><a href="Tel:+8801683076566" class="ui-link-inherit">	মোবাইল: 	০১৬৮৩০৭৬৫৬৬</a><br>ইমেইল:	makullahighschool @hotmail.com<br><br>
+ভাদুরীর চর বালিকা উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ আঃ লতিফ<br><a href="Tel:+8801713562599" class="ui-link-inherit">	মোবাইল: 	০১৭১৩৫৬২৫৯৯</a><br>ইমেইল:		bhadurircharghs@ yahoo.com<br><br>
+জনতা বহুমূখী উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ নুরুল ইসলাম<br><a href="Tel:+8801710772105" class="ui-link-inherit">	মোবাইল: 	 ০১৭১০৭৭২১০৫</a><br>ইমেইল:		s.janata114203@gmail.com<br><br>
+জয়নগর উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ ওয়াহেদ খন্দকার<br><a href="Tel:+8801716756964" class="ui-link-inherit">	মোবাইল: 	০১৭১৬৭৫৬৯৬৪</a><br>ইমেইল:		joynagarhighschool_g@yahoo.com<br><br>
+হেমনগর বালিকা উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মিসেস হামিদা বেগম<br><a href="Tel:+8801725428150" class="ui-link-inherit">	মোবাইল: 	০১৭২৫৪২৮১৫০</a><br>ইমেইল:	s114205@yahoo.com<br><br>
+ বেড়াডাকুরী  উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ নুরুল হুদা<br><a href="Tel:+8801718893597" class="ui-link-inherit">	মোবাইল: 	০১৭১৮৮৯৩৫৯৭</a><br>ইমেইল:		beradakuri_aub@yahoo.com<br><br>
+ধোপাকান্দি বালিকা উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মাহমুদা খাতুন<br><a href="Tel:+8801718968000" class="ui-link-inherit">	মোবাইল: 	০১৭১৮৯৬৮০০০</a><br>ইমেইল:		s114207@yahoo.com<br><br>
+সূতী ভিএম পাইলট উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		আঃ লতিফ<br><a href="Tel:+8801718920856" class="ui-link-inherit">	মোবাইল: 	০১৭১৮৯২০৮৫৬</a><br>	ইমেইল:	svmschoolgopalpur@yahoo.com<br><br>
+ নন্দনপুর রাধারানী পাইলট বাঃ উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ	 	মোঃজববার<br><a href="Tel:+8801710175134" class="ui-link-inherit">	মোবাইল: 	০১৭১০১৭৫১৩৪	</a><br>ইমেইল:	s114209@hotmail.com<br><br>
+সূতী  হোসেন শঃ উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ মিজানুর রহমান<br><a href="Tel:+8801715432493" class="ui-link-inherit">	মোবাইল: 	০১৭১৫৪৩২৪৯৩ </a><br>ইমেইল:		sutihsshighschool@hotmail.com<br><br>
+হেমনগর শশীমূখী উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ মন্জুরুল ইসলাম<br><a href="Tel:+8801762151432" class="ui-link-inherit">	মোবাইল: 	০১৭৬২১৫১৪৩২</a><br>ইমেইল:	hemnagarshahimukhi@gmail.com<br><br>
+ঝাওয়াইল এম এইচ কে উচ্চ বিদ্যালয়	<br>প্রধান শিক্ষকঃ	মোঃ সোলায়মান<br><a href="Tel:+8801736206292" class="ui-link-inherit">	মোবাইল: 	 ০১৭৩৬২০৬২৯২</a><br>ইমেইল:		jhawailmhk@gmail.com<br><br>
+ঝাওয়াইল আরকেএসবি বাঃ উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		নুর মোহাম্মদ<br><a href="Tel:+8801712597682" class="ui-link-inherit">	মোবাইল: 	০১৭১২৫৯৭৬৮২</a><br>	ইমেইল:	s114213@yahoo.com<br><br>
+নইম উদ্দিন উঃ বিঃ	মোঃ <br>প্রধান শিক্ষকঃ আসাদুজ্জামান <br><a href="Tel:+8801756519025" class="ui-link-inherit">	মোবাইল: ০১৭৫৬৫১৯০২৫</a><br>	ইমেইল:	snuhs114214@yahoo.com<br><br>
+মোহনপুর পাবলিক উঃ বিঃ <br>প্রধান শিক্ষকঃ	 	মোঃ চান মিয়া<br><a href="Tel:+8801738817377" class="ui-link-inherit">	মোবাইল: 	০১৭৩৮৮১৭৩৭৭ </a><br>	ইমেইল:	mohanpurpublichighschool@yahoo.com<br><br>
+সৈয়দ পুর উচ্চ বিঃ <br>প্রধান শিক্ষকঃ		মোঃসেলিম রেজা<br><a href="Tel:+8801753365562" class="ui-link-inherit">	মোবাইল: 	০১৭৫৩৩৬৫৫৬২ </a><br>	ইমেইল:	s114216@yahoo.com<br><br>
+রামনগর উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ জয়নাল আবেদীন<br><a href="Tel:+8801727684776" class="ui-link-inherit">	মোবাইল: 	 ০১৭২৭৬৮৪৭৭৬</a><br>ইমেইল:		s114217@yahoo.com<br><br>
+নবগ্রাম উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃআবুবকর সিদ্দিক<br><a href="Tel:+8801723451553" class="ui-link-inherit">	মোবাইল: 	০১৭২৩৪৫১৫৫৩</a><br>	ইমেইল:	s114218@yahoo.com<br><br>
+নলিন মডেল বালিকা উঃ বিঃ <br>প্রধান শিক্ষকঃ		মোঃ শেলিম রেজা<br><a href="Tel:+8801739441097" class="ui-link-inherit">	মোবাইল: 	০১৭৩৯৪৪১০৯৭</a>	<br><br>
+ভেগুলা এম এল উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ মনি<br><a href="Tel:+8801721825706" class="ui-link-inherit">	মোবাইল: 	০১৭২১৮২৫৭০৬</a>	<br><br>
+মির্জাপুর বি এল উঃ বিঃ <br>প্রধান শিক্ষকঃ		মোঃআঃজলিল<br><a href="Tel:+8801715589325" class="ui-link-inherit">	মোবাইল: 	০১৭১৫৫৮৯৩২৫	</a><br><br>
+সাজানপুর উঃ বিঃ <br>প্রধান শিক্ষকঃ		হায়দার আলী<br><a href="Tel:+8801714775014" class="ui-link-inherit">	মোবাইল: 	০১৭১৪৭৭৫০১৪	</a><br><br>
+হাদিরা হাতেম আলী উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মুহাম্মদ শমসের আলী<br><a href="Tel:+8801711277980" class="ui-link-inherit">	মোবাইল: 	০১৭১১২৭৭৯৮০</a><br><br>	
+শিমলা জামিরম্নন্নেছা  উঃ বিঃ <br>প্রধান শিক্ষকঃ		মোঃ গোলাম ফারুক	<br><a href="Tel:+8801717712042" class="ui-link-inherit">	মোবাইল: ০১৭১৭৭১২০৪২</a><br><br>	
+কাহেতা উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ মানিক উদ্দিন	<br><a href="Tel:+8801735203574" class="ui-link-inherit">	মোবাইল: ০১৭৩৫২০৩৫৭৪</a>	<br><br>
+আলমনগর উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ আঃ লতিফ<br><a href="Tel:+8801721404602" class="ui-link-inherit">	মোবাইল: 	০১৭২১৪০৪৬০২	</a><br><br>
+চাতুটিযা উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ খাদেমুল ইসলাম<br><a href="Tel:+8801724488959" class="ui-link-inherit">	মোবাইল: 	০১৭২৪৪৮৮৯৫৯</a>	<br><br>
+গোপালপুর উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ আঃ হাই<br><a href="Tel:+8801733603179" class="ui-link-inherit">	মোবাইল: 	০১৭৩৩৬০৩১৭৯</a>	<br><br>
+ভেঙ্গুলা উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ হায়দার আলী	<br><a href="Tel:+8801728251011" class="ui-link-inherit">	মোবাইল: ০১৭২৮২৫১০১১	</a><br><br>
+ফকির মরিয়ম বালিকা উঃ বিঃ<br>প্রধান শিক্ষকঃ	 	হোসনে আরা<br><a href="Tel:+8801714649663" class="ui-link-inherit">	মোবাইল: 	০১৭১৪৬৪৯৬৬৩</a>	<br><br>
+ডুবাইল আদর্শ গণ উচ্চ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ বদিউজ্জামান	<br><a href="Tel:+8801190740192" class="ui-link-inherit">	মোবাইল: ০১১৯০৭৪০১৯২</a><br><br>	
+বড়শিলা উচ্চ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ রফিকুল ইসলাম	<br><a href="Tel:+8801713521108" class="ui-link-inherit">	মোবাইল: ০১৭১৩৫২১১০৮</a>	<br><br>
+সুন্দর উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ জোবায়দুল হক	<br><a href="Tel:+8801712599964" class="ui-link-inherit">	মোবাইল: ০১৭১২৫৯৯৯৬৪	</a><br><br>
+আলমনগর ইউনিয়ন  উঃ বিঃ<br>প্রধান শিক্ষকঃ		তাহেরা খানম	<br><a href="Tel:+8801734567586" class="ui-link-inherit">	মোবাইল: ০১৭৩৪৫৬৭৫৮৬</a>	<br><br>
+পাকুয়া  উঃ বিঃ<br>প্রধান শিক্ষকঃ		আহাম্মদ আলী	<br><a href="Tel:+8801716577857" class="ui-link-inherit">	মোবাইল: ০১৭১৬৫৭৭৮৫৭	</a><br><br>
+এ এম মুজিবুর রহমান উঃ বি<br>প্রধান শিক্ষকঃ		আবু মোঃ শফিউল আলম	<br><a href="Tel:+8801721147511" class="ui-link-inherit">	মোবাইল: ০১৭২১১৪৭৫১১</a>	<br><br>
+খামারপাড়া উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		মোঃ শেখ সাদী<br><a href="Tel:+8801724656707" class="ui-link-inherit">	মোবাইল: 	০১৭২৪৬৫৬৭০৭	</a><br><br>
+শাখারিয়া খন্দঃ আসাঃ উঃবিঃ<br>প্রধান শিক্ষকঃ		নারগিস বেগম<br><a href="Tel:+8801716364912" class="ui-link-inherit">	মোবাইল: 	০১৭১৬৩৬৪৯১২</a>	<br><br>
+এস এল উঃ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ আনোয়ার হেসেন	<br><a href="Tel:+8801721238101" class="ui-link-inherit">	মোবাইল: ০১৭২১২৩৮১০১</a>	<br><br>
+খন্দকার আসাদুজ্জামান একাডেমী	<br>প্রধান শিক্ষকঃ	মোঃ জিলস্নুর রহমান<br><a href="Tel:+8801715969975" class="ui-link-inherit">	মোবাইল: 	০১৭১৫৯৬৯৯৭৫</a>	<br><br>
+মোহনপুর খঃ আঃ বালিকা উঃ বিঃ<br>প্রধান শিক্ষকঃ		খঃ হামিদুল হক<br><a href="Tel:+8801732355188" class="ui-link-inherit">	মোবাইল: 	০১৭৩২৩৫৫১৮৮</a><br><br>	
+সুতি নয়াপাড়া উকিল বাড়ী নিমা বিঃ<br>প্রধান শিক্ষকঃ	 	জাইদ আল মামুন<br><a href="Tel:+8801710176067" class="ui-link-inherit">	মোবাইল: 	 ০১৭১০১৭৬০৬৭</a>	<br><br>
+মাহমুদ পুর উচ্চ বিঃ<br>প্রধান শিক্ষকঃ		মোঃ মিজানুর রহমান	<br><a href="Tel:+8801718738814" class="ui-link-inherit">	মোবাইল: ০১৭১৮৭৩৮৮১৪	</a><br><br>
+খঃ মান্নান মেঃ উচ্চ বিদ্যালয়<br>প্রধান শিক্ষকঃ		খঃ বেলায়েত হোসেন<br><a href="Tel:+8801715894455" class="ui-link-inherit">	মোবাইল: 	০১৭১৫৮৯৪৪৫৫</a><br><br>	
+শিমলা পাবলিক উচ্চ মাধ্যমিক বিদ্যা:<br>প্রধান শিক্ষকঃ		মোঃ আলমগীর হোসেন<br><a href="Tel:+8801741049808" class="ui-link-inherit">	মোবাইল: 	০১৭৪১০৪৯৮০৮</a>	
+
+	
+						
+						
+						</p>
+						
+				 	</div>
+				</div>
+				
+		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

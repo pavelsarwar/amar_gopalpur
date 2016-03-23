@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>আমার গোপালপুর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:15px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-bar ui-bar-b">
+					<h1>পৌরসভা</h1>
+				</div>
+			
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মেয়র</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					
+						<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture17.jpg"/><br><strong>মো: রকিবুল হক ছানা</strong> <br>মেয়র<br><a href="Tel:+8801711197228" class="ui-link-inherit">মোবাইল: ০১৭১১১৯৭২২৮</a></p>
+						
+				 	</div>
+				</div>			
+
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মহিলা কাউন্সিলর</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture18.jpg"/><br><strong>মোছাঃ বিউটি বেগম</strong> <br>মহিলা কাউন্সিলর, সংরক্ষিত-০১<br><a href="Tel:+8801734427609" class="ui-link-inherit">মোবাইল : ০১৭৩৪৪২৭৬০৯</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture19.jpg"/><br><strong>মোছাঃ হামিদা বেগম</strong> <br>মহিলা কাউন্সিলর, সংরক্ষিত-০২<br><a href="Tel:+8801771531601" class="ui-link-inherit">মোবাইল : ০১৭৭১৫৩১৬০১</a></p>	
+				 	<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture20.jpg"/><br><strong>মোসাঃ হালিমা বেগম</strong> <br>মহিলা কাউন্সিলর, সংরক্ষিত-০৩<br><a href="Tel:+8801712503606" class="ui-link-inherit">মোবাইল : ০১৭১২৫০৩৬০৬</a></p>
+					</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কাউন্সিলর</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture21.jpg"/><br><strong>মোঃ নজরুল ইসলাম</strong> <br>পদবী: কাউন্সিলর, ১নং ওয়ার্ড<br><a href="Tel:+8801768269710" class="ui-link-inherit">মোবাইল : ০১৭৬৮২৬৯৭১০</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture22.jpg"/><br><strong>মোঃ সমশের আলী </strong> <br>পদবী: কাউন্সিলর, ২নং ওয়ার্ড<br><a href="Tel:+8801719720870" class="ui-link-inherit">মোবাইল : ০১৭১৯৭২০৮৭০</a></p>	
+				 	<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture23.jpg"/><br><strong>মোঃ আল মামুন </strong> <br>পদবী: কাউন্সিলর, ৩নং ওয়ার্ড<br><a href="Tel:+8801911864845" class="ui-link-inherit">মোবাইল : ০১৯১১৮৬৪৮৪৫</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture24.jpg"/><br><strong>মোঃ আমিনুল ইসলাম দিপু </strong> <br>পদবী: কাউন্সিলর, ৪নং ওয়ার্ড<br><a href="Tel:+8801912345338" class="ui-link-inherit">মোবাইল : ০১৯১২৩৪৫৩৩৮</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture25.jpg"/><br><strong>উজ্জল মিয়া </strong> <br>পদবী: কাউন্সিলর, ৫নং ওয়ার্ড<br><a href="Tel:+8801718415142" class="ui-link-inherit">মোবাইল : ০১৭১৮৪১৫১৪২</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture26.jpg"/><br><strong>মোঃ আব্দুস সোবহান </strong> <br>পদবী: কাউন্সিলর, ৬নং ওয়ার্ড<br><a href="Tel:+8801736741591" class="ui-link-inherit">মোবাইল : ০১৭৩৬৭৪১৫৯১</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture27.jpg"/><br><strong>মোঃ আঃ সালাম </strong> <br>পদবী: কাউন্সিলর, ৭নং ওয়ার্ড<br><a href="Tel:+8801774962170" class="ui-link-inherit">মোবাইল : ০১৭৭৪৯৬২১৭০</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture28.jpg"/><br><strong>মোঃ লুৎফর রহমান </strong> <br>পদবী: কাউন্সিলর, ৮নং ওয়ার্ড<br><a href="Tel:+8801716980831" class="ui-link-inherit">মোবাইল : ০১৭১৬৯৮০৮৩১</a></p>
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture29.jpg"/><br><strong>মোঃ আব্দুল মজিদ </strong> <br>পদবী: কাউন্সিলর, ৯নং ওয়ার্ড<br><a href="Tel:+8801725026339" class="ui-link-inherit">মোবাইল : ০১৭২৫০২৬৩৩৯</a></p>
+					</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পৌরসভা সচিব</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+					<p style=text-align:center;><img style="max-width: 100%;" src="img/Picture30.jpg"/><br><strong>মোঃ রফিকুল হাসান</strong> <br>পৌরসভা সচিব<br><a href="Tel:+8801716450985" class="ui-link-inherit">মোবাইল : ০১৭১৬৪৫০৯৮৫</a></p>
+	
+					</div>
+				</div>
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
